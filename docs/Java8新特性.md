@@ -1,35 +1,4 @@
-# Learn
-
----
-
-- ***CriteriaQuery***
-  
-    Hibernate Criteria查询（Criteria Query），这种查询方式把查询条件封装为一个Criteria对象。
-    
-    构建一个Criteria实例，然后把具体的查询条件通过Criteria的add()方法加入到Criteria实例中。
-    
-    ```java
-    //构建查询对象
-    CriteriaQuery cq = new CriteriaQuery(ErpHrSalaryBookkeepingEntity.class, dataGrid);
-    
-    public CriteriaQuery(Class entityClass,DataGrid dg) {
-       this.curPage = dg.getPage();
-       this.detachedCriteria = DetachedCriteria.forClass(entityClass);
-       this.field=dg.getField();  //查询需要显示的字段
-       this.entityClass=entityClass; //POJO
-       this.dataGrid=dg;
-       this.pageSize=dg.getRows();
-       this.map= new HashMap<String, Object>();
-       this.ordermap = new LinkedHashMap<String, Object>();  //排序字段
-    }
-    ```
-    
-    ```java
-    //查询条件组装器
-    org.jeecgframework.core.extend.hqlsearch.HqlGenerateUtil.installHql(cq, erpHrSalaryBookkeeping, request.getParameterMap());
-    
-    ```
-    
+# Java 8 新特性
 
 ---
 
