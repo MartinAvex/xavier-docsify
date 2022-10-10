@@ -4,7 +4,7 @@
 <h1 align="center">Xavier Docsify</h1>
 
 [GitHub](https://github.com/MartinAvex/xavier-docsify)
-[开始阅读](#Xavier Docsify)
+[开始阅读](#xavier-docsify)
 
 
 
