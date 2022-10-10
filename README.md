@@ -1,4 +1,4 @@
-# Xavier docsify
+# Xavier Docsify
 
 - Github：https://github.com/MartinAvex/xavier-docsify
 
